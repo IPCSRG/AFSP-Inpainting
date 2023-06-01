@@ -81,7 +81,7 @@ python test.py \
 
 **4.   Evaluate**
 
-To evaluate the model performance over a dateset, you can use the provided script [./scripts/metrics.py](scripts/metrics.py). This script can provide the L1 loss, PSNR, SSIM and LPIPS of the results. Besides, you can use the provided script [./scripts/FID.py](scripts/FID.py). This FID can provide the Fréchet Inception Distance ([FID score](https://github.com/mseitzer/pytorch-fid)) of the results.
+To evaluate the model performance over a dateset, you can use the provided script [./evaluate/metrics.py](evaluate/metrics.py). This script can provide the L1 loss, PSNR, SSIM and LPIPS of the results. Besides, you can use the provided script [./evaluate/FID.py](evaluate/FID.py). This FID can provide the Fréchet Inception Distance ([FID score](https://github.com/mseitzer/pytorch-fid)) of the results.
 
 ```bash
 python ./scripts/metrics.py \
