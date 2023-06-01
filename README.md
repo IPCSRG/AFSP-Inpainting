@@ -24,7 +24,7 @@ Example inpainting results on images of face, natural scene and street view. Mis
 1. Clone this repository
 
    ```bash
-   git clone https://github.com/LIZHJUN/AFSP
+   git clone https://github.com/IPCSRG/AFSP-Inpainting
    ```
 
 2. Build Gaussian Sampling CUDA package 
